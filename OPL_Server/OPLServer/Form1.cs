@@ -32,23 +32,25 @@ namespace OPLServer
         private string AppPath = AppDomain.CurrentDomain.BaseDirectory;
         public delegate void addLog(string a, string b, string c, string d);
         public bool isLoadingSettings = false;
+        private string[] shareDir = new string[10];
+        private string[] shareDirName = new string[10];
 
         public Form1()
         {
             InitializeComponent();
 
-            if (!Directory.Exists(AppPath + "PS2"))
-            {
-                Directory.CreateDirectory(AppPath + "PS2");
-            }
+            makeDirectory();
 
             users.Add("Guest", "");
             users.Add("Guest", "Guest");
             authenticationMechanism = new IndependentNTLMAuthenticationProvider(users.GetUserPassword);
 
             List<ShareSettings> sharesSettings = new List<ShareSettings>();
-            ShareSettings itemtoshare = new ShareSettings("PS2", AppPath + "PS2", new List<string>() { "Guest" }, new List<string>() { "Guest" });
-            sharesSettings.Add(itemtoshare);
+            foreach (string Directory in shareDirName)
+            {
+                ShareSettings itemtoshare = new ShareSettings(Directory, AppPath + Directory, new List<string>() { "Guest" }, new List<string>() { "Guest" });
+                sharesSettings.Add(itemtoshare);
+            }
 
             SMBShareCollection shares = new SMBShareCollection();
             foreach (ShareSettings shareSettings in sharesSettings)
@@ -81,6 +83,24 @@ namespace OPLServer
                     tsbServerState.Checked = true;
                     //tsbServerState_CheckedChanged(null, null);
                 }                
+            }
+        }
+
+        void makeDirectory()
+        {
+            shareDir = Directory.GetDirectories(AppPath);
+
+            if (shareDir.Length == 0)
+            {
+                Directory.CreateDirectory(AppPath + "PS2");
+                makeDirectory();
+            }
+
+            int i = 0;
+            foreach(string dir in shareDir)
+            {
+                shareDirName[i] = Path.GetFileName(dir.TrimEnd(Path.DirectorySeparatorChar));
+                i++;
             }
         }
 
@@ -342,6 +362,11 @@ namespace OPLServer
         private void tsbSettingChanged_CheckedChanged(object sender, EventArgs e)
         {
             saveSettings();
+        }
+
+        private void tsbServerState_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

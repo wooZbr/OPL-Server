@@ -28,3 +28,18 @@ D:\Visual Studio 2012\Projects\OPL_Server\OPLServer\obj\Release\OPLServer.Proper
 D:\Visual Studio 2012\Projects\OPL_Server\OPLServer\obj\Release\OPLServer.csproj.GenerateResource.Cache
 D:\Visual Studio 2012\Projects\OPL_Server\OPLServer\obj\Release\OPLServer.exe
 D:\Visual Studio 2012\Projects\OPL_Server\OPLServer\obj\Release\OPLServer.pdb
+C:\Users\Eduardo\Documents\GitHub\OPL-Server\OPL_Server\OPLServer\obj\Release\OPLServer.exe
+C:\Users\Eduardo\Documents\GitHub\OPL-Server\OPL_Server\OPLServer\obj\Release\OPLServer.pdb
+C:\Users\Eduardo\Documents\GitHub\OPL-Server\OPL_Server\OPLServer\bin\Release\OPLServer.exe
+C:\Users\Eduardo\Documents\GitHub\OPL-Server\OPL_Server\OPLServer\bin\Release\OPLServer.pdb
+C:\Users\Eduardo\Documents\GitHub\OPL-Server\OPL_Server\OPLServer\bin\Release\SMBLibrary.dll
+C:\Users\Eduardo\Documents\GitHub\OPL-Server\OPL_Server\OPLServer\bin\Release\SMBLibrary.Win32.dll
+C:\Users\Eduardo\Documents\GitHub\OPL-Server\OPL_Server\OPLServer\bin\Release\Utilities.dll
+C:\Users\Eduardo\Documents\GitHub\OPL-Server\OPL_Server\OPLServer\bin\Release\SMBLibrary.Win32.pdb
+C:\Users\Eduardo\Documents\GitHub\OPL-Server\OPL_Server\OPLServer\bin\Release\SMBLibrary.pdb
+C:\Users\Eduardo\Documents\GitHub\OPL-Server\OPL_Server\OPLServer\bin\Release\Utilities.pdb
+C:\Users\Eduardo\Documents\GitHub\OPL-Server\OPL_Server\OPLServer\obj\Release\OPLServer.csprojResolveAssemblyReference.cache
+C:\Users\Eduardo\Documents\GitHub\OPL-Server\OPL_Server\OPLServer\obj\Release\OPLServer.Form1.resources
+C:\Users\Eduardo\Documents\GitHub\OPL-Server\OPL_Server\OPLServer\obj\Release\OPLServer.frmAbout.resources
+C:\Users\Eduardo\Documents\GitHub\OPL-Server\OPL_Server\OPLServer\obj\Release\OPLServer.Properties.Resources.resources
+C:\Users\Eduardo\Documents\GitHub\OPL-Server\OPL_Server\OPLServer\obj\Release\OPLServer.csproj.GenerateResource.Cache

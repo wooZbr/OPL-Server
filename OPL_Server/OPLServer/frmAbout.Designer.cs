@@ -41,11 +41,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(137, 90);
+            this.label1.Location = new System.Drawing.Point(68, 91);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(159, 15);
+            this.label1.Size = new System.Drawing.Size(305, 30);
             this.label1.TabIndex = 0;
-            this.label1.Text = "OPL Server by MaRioLo\r\n";
+            this.label1.Text = "OPL Server by MaRioLo (Modified by Romeu_)\r\n\r\n";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2

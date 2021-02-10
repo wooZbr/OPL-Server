@@ -12,3 +12,10 @@ D:\Visual Studio 2012\Projects\OPL_Server\SMBLibrary\bin\Release\Utilities.pdb
 D:\Visual Studio 2012\Projects\OPL_Server\SMBLibrary\obj\Release\SMBLibrary.VS2005.csprojResolveAssemblyReference.cache
 D:\Visual Studio 2012\Projects\OPL_Server\SMBLibrary\obj\Release\SMBLibrary.dll
 D:\Visual Studio 2012\Projects\OPL_Server\SMBLibrary\obj\Release\SMBLibrary.pdb
+C:\Users\Eduardo\Documents\GitHub\OPL-Server\OPL_Server\SMBLibrary\bin\Release\SMBLibrary.dll
+C:\Users\Eduardo\Documents\GitHub\OPL-Server\OPL_Server\SMBLibrary\bin\Release\SMBLibrary.pdb
+C:\Users\Eduardo\Documents\GitHub\OPL-Server\OPL_Server\SMBLibrary\bin\Release\Utilities.dll
+C:\Users\Eduardo\Documents\GitHub\OPL-Server\OPL_Server\SMBLibrary\bin\Release\Utilities.pdb
+C:\Users\Eduardo\Documents\GitHub\OPL-Server\OPL_Server\SMBLibrary\obj\Release\SMBLibrary.VS2005.csprojResolveAssemblyReference.cache
+C:\Users\Eduardo\Documents\GitHub\OPL-Server\OPL_Server\SMBLibrary\obj\Release\SMBLibrary.dll
+C:\Users\Eduardo\Documents\GitHub\OPL-Server\OPL_Server\SMBLibrary\obj\Release\SMBLibrary.pdb
